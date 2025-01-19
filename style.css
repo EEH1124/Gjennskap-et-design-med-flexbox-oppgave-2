@@ -1,3 +1,92 @@
-body{
-    font-size: 15;
+/* styling*/
+body {
+  font-family: 'Lexend Deca', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(0, 0%, 20%);
 }
+
+header {
+  text-align: center;
+  margin: 20px ;
+  font-size: 1.5rem;
+}
+
+/* Container styling */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* card styling */
+.card {
+  flex: 1 1 300px;
+  max-width: 300px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 50px;
+  margin-bottom: 15px;
+}
+
+.card h2 {
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+/* colors for different cars*/
+.sedans {
+  background-color: hsl(31, 77%, 52%);
+  color: hsl(0, 0%, 95%);
+}
+
+.suvs {
+  background-color: hsl(184, 100%, 22%);
+  color: hsl(0, 0%, 95%);
+}
+
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+  color: hsl(0, 0%, 95%);
+}
+
+/* Tex and button styling */
+.card p {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.card button {
+  background-color: hsl(0, 0%, 95%);
+  color: inherit;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.card button:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+/prosjektmappe
+  /html-css-assignment-2
+    /images
+      icon-sedans.svg
+      icon-suvs.svg
+      icon-luxury.svg
+  index.html
+  style.css
